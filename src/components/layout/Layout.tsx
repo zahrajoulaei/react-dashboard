@@ -11,10 +11,11 @@ interface Props extends React.HTMLProps<HTMLElement> {
 export default function Layout({ children, title, id }: Props) {
     return (
         <div className="main-layout">
-            <div className="w-20">
+            <div className="w-10">
             <Sidebar />
             </div>
             <div className="w-80">
+            <button className="button">Back</button>
             {children}
             <span>{title}</span>
             <span>{id}</span>
