@@ -1,0 +1,29 @@
+.w-20 {
+  width: 20%;
+  background-color: #fafafa;
+  display: flex;
+  border-radius: 12px;
+  box-shadow: 1px 0 0 rgb(22 8 43 / 10%);
+}
+
+.w-80 {
+  width: 80%;
+  background-color: white;
+  display: flex;
+  box-shadow: 1px 0 0 rgb(22 8 43 / 20%);
+}
+.red-color {
+  color: red;
+  font-size: 40px;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+}
+
+.main-layout {
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+}
