@@ -11,11 +11,13 @@
   background-color: white;
   box-shadow: 1px 0 0 rgb(22 8 43 / 20%);
 }
-.red-color {
-  color: red;
-  font-size: 40px;
+.home-title {
+  color: #5fccee;
+  padding: 18px;;
 }
-
+p {
+  padding: 15px;;
+}
 .menu {
   display: flex;
   flex-direction: column;
@@ -38,4 +40,20 @@
   border-radius: 10px;
   background-color: white;
   cursor: pointer;
+}
+.users-list ul {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  font-size: 18px;
+}
+.users-list li{
+  padding: 1rem;
+  list-style: none;
+  border: 1px solid gainsboro;
+}
+.users-list span {
+  margin-left: 10px;
+  color: gray
+  
 }

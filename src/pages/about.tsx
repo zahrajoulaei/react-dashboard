@@ -1,9 +1,10 @@
 import Layout from "../components/layout/Layout";
+import Message from "../components/Message";
 
 export default function About() {
     return (
         <div>
-             <Layout children={<span>input</span>} title='my input' id='8'/>
+             <Layout children={<Message />} />
         </div>
     );
 }
